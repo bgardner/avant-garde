@@ -2,7 +2,7 @@
 
 An experimental block theme for those who love simplicity.
 
-![Avant-Garde WordPress Theme](https://user-images.githubusercontent.com/486261/155392895-4a0d76d1-afa4-4272-83f4-d40ded303767.jpg)
+![Avant-Garde WordPress Theme](https://user-images.githubusercontent.com/486261/155393606-d2af8bfb-cbe2-41ad-994f-74dd691afff6.jpg)
 
 ## About
 
