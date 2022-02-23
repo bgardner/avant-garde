@@ -6,7 +6,7 @@ An experimental block theme for those who love simplicity.
 
 ## About
 
-Avant-Garde is all about pushing boundaries and experimenting with new ideas. It’s about dreaming, thinking outside the box, and creating something unique. See the Avant-Garde theme in action at [https://bg.design/avant-garde/](https://bg.design/avant-garde/).
+Avant-Garde is about pushing boundaries and experimenting with new ideas. It’s about dreaming, thinking outside the box, and creating something unique. See the Avant-Garde theme in action at [https://bg.design/avant-garde/](https://bg.design/avant-garde/).
 
 ## Requirements
 
