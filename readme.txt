@@ -12,6 +12,14 @@ An experimental block theme for those who love simplicity.
 
 == Changelog ==
 
+= 1.0.2 =
+
+Fix typos.
+
+= 1.0.1 =
+
+Remove accessibility label, prep for WP.org.
+
 = 1.0 =
 
 Initial public release.

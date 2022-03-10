@@ -40,7 +40,7 @@
 			"defaultPalette": false,
 			"palette": [
 				{
-					"name": "Primiary",
+					"name": "Primary",
 					"slug": "primary",
 					"color": "#121212"
 				},
