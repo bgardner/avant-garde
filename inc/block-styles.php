@@ -26,6 +26,7 @@ function avant_garde_register_block_styles() {
 		),
 		'core/image'           => array(
 			'frame' => __( 'Frame', 'avant-garde' ),
+			'inner-border' => __( 'Inner Border', 'avant-garde' ),
 		),
 		'core/paragraph'       => array(
 			'no-margin' => __( 'No Margin', 'avant-garde' ),

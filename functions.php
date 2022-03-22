@@ -3,7 +3,7 @@
  * This file adds functions to the Avant-Garde WordPress theme.
  *
  * @package Avant-Garde
- * @author  WP Engine
+ * @author  Brian Gardner
  * @license GNU General Public License v2 or later
  * @link    https://briangardner.com/
  */

@@ -12,6 +12,10 @@ An experimental block theme for those who love simplicity.
 
 == Changelog ==
 
+= 1.0.3 =
+
+Add image block style.
+
 = 1.0.2 =
 
 Fix typos.

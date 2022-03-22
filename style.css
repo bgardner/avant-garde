@@ -8,7 +8,7 @@ Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, edi
 Requires at least: 5.9
 Tested up to: 5.9
 Requires PHP: 5.6
-Version: 1.0.2
+Version: 1.0.3
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: avant-garde
@@ -596,6 +596,11 @@ textarea {
 	align-items: center;
 	display: grid;
 	min-height: 100vh;
+}
+
+.is-style-inner-border img {
+	outline: 1px solid #fff;
+	outline-offset: -20px;
 }
 
 p.is-style-no-margin,
