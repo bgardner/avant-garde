@@ -89,7 +89,7 @@ function avant_garde_register_block_patterns() {
 	foreach ( $block_patterns as $block_pattern ) {
 		register_block_pattern(
 			'avant-garde/' . $block_pattern,
-			require get_theme_file_path( '/inc/patterns/' . $block_pattern . '.php' )
+			require get_theme_file_path( '/patterns/' . $block_pattern . '.php' )
 		);
 	}
 

@@ -14,7 +14,7 @@ An experimental block theme for those who love simplicity. Avant-garde is all ab
 
 = 1.0.4 =
 
-Relocate block styles, update description.
+Relocate patterns and block styles, update description.
 
 = 1.0.3 =
 

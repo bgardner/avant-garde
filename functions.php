@@ -117,5 +117,5 @@ function avant_garde_register_block_styles() {
 }
 add_action( 'init', 'avant_garde_register_block_styles' );
 
-// Include block patterns.
-require get_template_directory() . '/inc/block-patterns.php';
+// Include patterns.
+require get_template_directory() . '/patterns.php';
