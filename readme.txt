@@ -8,9 +8,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-An experimental block theme for those who love simplicity.
+An experimental block theme for those who love simplicity. Avant-garde is all about pushing boundaries and experimenting with new ideas. It’s about dreaming, thinking outside the box, and creating something unique.
 
 == Changelog ==
+
+= 1.0.4 =
+
+Relocate block styles, update description.
 
 = 1.0.3 =
 

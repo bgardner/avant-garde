@@ -368,12 +368,6 @@
 				"color": {
 					"text": "var(--wp--preset--color--primary)"
 				},
-				"spacing": {
-					"margin": {
-						"top": "30px",
-						"bottom": "30px"
-					}
-				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)"
 				}

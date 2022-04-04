@@ -1,6 +1,6 @@
 # Avant-Garde
 
-An experimental block theme for those who love simplicity.
+An experimental block theme for those who love simplicity. Avant-garde is all about pushing boundaries and experimenting with new ideas. It’s about dreaming, thinking outside the box, and creating something unique.
 
 ![Avant-Garde WordPress Theme](https://user-images.githubusercontent.com/486261/155393606-d2af8bfb-cbe2-41ad-994f-74dd691afff6.jpg)
 
