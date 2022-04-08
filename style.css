@@ -61,12 +61,6 @@ strong {
 	font-weight: var(--wp--custom--font-weight--medium);
 }
 
-img {
-	height: auto;
-	max-width: 100%;
-	vertical-align: top;
-}
-
 blockquote {
 	margin: 0;
 }
@@ -447,8 +441,7 @@ p.has-background {
 	margin-bottom: 0;
 }
 
-.wp-block-pullquote cite,
-.wp-block-pullquote__citation {
+.wp-block-pullquote cite {
 	display: block;
 	font-size: var(--wp--preset--font-size--x-small);
 	font-style: inherit;
