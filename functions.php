@@ -86,19 +86,19 @@ function avant_garde_fonts_url() {
 function avant_garde_register_block_styles() {
 
 	$block_styles = array(
-		'core/button'          => array(
+		'core/button'    => array(
 			'fill-secondary'    => __( 'Fill Secondary', 'avant-garde' ),
 			'outline-secondary' => __( 'Outline Secondary', 'avant-garde' ),
 		),
-		'core/group'           => array(
+		'core/group'.    => array(
 			'boxshadow'   => __( 'Boxshadow', 'avant-garde' ),
 			'full-height' => __( 'Full-height', 'avant-garde' ),
 		),
-		'core/image'           => array(
+		'core/image'.    => array(
 			'frame' => __( 'Frame', 'avant-garde' ),
 			'inner-border' => __( 'Inner Border', 'avant-garde' ),
 		),
-		'core/paragraph'       => array(
+		'core/paragraph' => array(
 			'no-margin' => __( 'No Margin', 'avant-garde' ),
 		),
 	);
