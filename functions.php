@@ -94,7 +94,7 @@ function avant_garde_register_block_styles() {
 			'boxshadow'   => __( 'Boxshadow', 'avant-garde' ),
 			'full-height' => __( 'Full-height', 'avant-garde' ),
 		),
-		'core/image'.    => array(
+		'core/image'     => array(
 			'frame' => __( 'Frame', 'avant-garde' ),
 			'inner-border' => __( 'Inner Border', 'avant-garde' ),
 		),
