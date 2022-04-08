@@ -90,7 +90,7 @@ function avant_garde_register_block_styles() {
 			'fill-secondary'    => __( 'Fill Secondary', 'avant-garde' ),
 			'outline-secondary' => __( 'Outline Secondary', 'avant-garde' ),
 		),
-		'core/group'.    => array(
+		'core/group'     => array(
 			'boxshadow'   => __( 'Boxshadow', 'avant-garde' ),
 			'full-height' => __( 'Full-height', 'avant-garde' ),
 		),
