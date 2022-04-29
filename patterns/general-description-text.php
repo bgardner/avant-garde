@@ -16,7 +16,7 @@ return array(
 				<!-- /wp:spacer -->
 
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.25","fontStyle":"normal","fontWeight":"300","fontSize":"34px"}}} -->
-				<p class="has-text-align-center" style="font-size:34px;font-style:normal;font-weight:300;line-height:1.25">' . esc_html__( 'Avant-garde is all about pushing boundaries and experimenting with new ideas. It’s about dreaming and creating something unique.', 'avant-garde' ) . '</p>
+				<p class="has-text-align-center" style="font-size:34px;font-style:normal;font-weight:300;line-height:1.25">' . esc_html__( 'Avant-garde is all about pushing boundaries and experimenting with new ideas. It’s about dreaming, thinking outside the box, and creating something unique.', 'avant-garde' ) . '</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:spacer -->

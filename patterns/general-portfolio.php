@@ -15,7 +15,7 @@ return array(
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center","className":"is-style-no-margin"} -->
-				<p class="has-text-align-center is-style-no-margin">' . esc_html__( 'We simplify life and use white space.', 'avant-garde' ) . '</p>
+				<p class="has-text-align-center is-style-no-margin">' . esc_html__( 'We simplify life and love white space.', 'avant-garde' ) . '</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:spacer {"height":"10px"} -->
