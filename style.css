@@ -8,7 +8,7 @@ Tags: block-patterns, block-styles, blog, custom-background, custom-colors, cust
 Requires at least: 5.9
 Tested up to: 5.9
 Requires PHP: 5.6
-Version: 1.0.4
+Version: 1.0.5
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: avant-garde
@@ -284,6 +284,10 @@ kbd {
 	margin-left: 0 !important;
 }
 
+.wp-block-column.is-style-no-margin {
+	margin: 0;
+}
+
 /* Comments
 --------------------------------------------- */
 
@@ -305,6 +309,10 @@ kbd {
 	margin-top: 40px;
 }
 
+.wp-block-post-comments .commentlist li {
+	margin-left: 0;
+}
+
 .wp-block-post-comments .commentlist .comment p {
 	line-height: var(--wp--custom--line-height--body);
 }
@@ -322,6 +330,19 @@ kbd {
 	width: 48px;
 }
 
+/* Group
+--------------------------------------------- */
+
+.wp-block-group.is-style-boxshadow {
+	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+}
+
+.wp-block-group.is-style-full-height {
+	align-items: center;
+	display: grid;
+	min-height: 100vh;
+}
+
 /* Image
 --------------------------------------------- */
 
@@ -331,6 +352,20 @@ kbd {
 
 .wp-block-image .alignright {
 	margin-left: 30px;
+}
+
+.wp-block-image.is-style-frame {
+	border: 2px solid var(--wp--preset--color--primary);
+	padding: 28px;
+}
+
+.wp-block-image.is-style-inner-border img {
+	outline: 1px solid #fff;
+	outline-offset: -20px;
+}
+
+.wp-block-image.is-style-no-margin {
+	margin: 0;
 }
 
 /* List
@@ -348,6 +383,11 @@ ol li:where(.wp-block-list),
 ul li:where(:not([class*='wp-block'])),
 ul li:where(.wp-block-list) {
 	margin-left: 30px;
+}
+
+.is-style-no-disc li {
+	list-style-type: none;
+	margin-left: 0;
 }
 
 /* Navigation
@@ -413,6 +453,11 @@ ul li:where(.wp-block-list) {
 
 p.has-background {
 	padding: 20px 30px;
+}
+
+p.is-style-no-margin,
+.is-style-no-margin {
+	margin: 0;
 }
 
 /* Preformatted
@@ -571,36 +616,6 @@ textarea {
 
 .nf-field-container {
 	margin-bottom: 10px;
-}
-
-/* Styles
---------------------------------------------- */
-
-.is-style-boxshadow {
-	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
-}
-
-.is-style-frame {
-	border: 2px solid var(--wp--preset--color--primary);
-	padding: 28px;
-}
-
-.is-style-full-height {
-	align-items: center;
-	display: grid;
-	min-height: 100vh;
-}
-
-.is-style-inner-border img {
-	outline: 1px solid #fff;
-	outline-offset: -20px;
-}
-
-p.is-style-no-margin,
-.is-style-no-margin,
-.wp-block-column.is-style-no-margin,
-.wp-block-image.is-style-no-margin {
-	margin: 0;
 }
 
 /* Site Footer

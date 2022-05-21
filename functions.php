@@ -98,6 +98,9 @@ function avant_garde_register_block_styles() {
 			'frame' => __( 'Frame', 'avant-garde' ),
 			'inner-border' => __( 'Inner Border', 'avant-garde' ),
 		),
+		'core/list'      => array(
+			'no-disc' => __( 'No Disc', 'avant-garde' ),
+		),
 		'core/paragraph' => array(
 			'no-margin' => __( 'No Margin', 'avant-garde' ),
 		),
