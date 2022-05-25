@@ -7,16 +7,13 @@
  */
 
 ?>
-<!-- wp:group {"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"10px"}}},"fontSize":"max-60"} -->
-<h2 class="has-text-align-center has-max-60-font-size" id="portfolio" style="margin-bottom:10px"><?php echo esc_html__( 'Portfolio', 'avant-garde' ); ?></h2>
+<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"0px"}}}} -->
+<div class="wp-block-group alignwide" style="margin-top:0px"><!-- wp:heading {"textAlign":"center","fontSize":"max-60"} -->
+<h2 class="has-text-align-center has-max-60-font-size" id="portfolio"><?php echo esc_html__( 'Portfolio', 'avant-garde' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center","className":"is-style-no-margin"} -->
 <p class="has-text-align-center is-style-no-margin"><?php echo esc_html__( 'We simplify life and love white space.', 'avant-garde' ); ?></p>
 <!-- /wp:paragraph -->
-<!-- wp:spacer {"height":"10px"} -->
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 <!-- wp:group {"align":"wide"} -->
 <div class="wp-block-group alignwide"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->

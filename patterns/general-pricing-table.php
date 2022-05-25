@@ -7,16 +7,13 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","layout":{"inherit":false,"wideSize":"1080px"}} -->
-<div class="wp-block-group alignfull"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"10px"}}},"fontSize":"max-60"} -->
-<h2 class="has-text-align-center has-max-60-font-size" id="services" style="margin-bottom:10px"><?php echo esc_html__( 'Services', 'avant-garde' ); ?></h2>
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"layout":{"inherit":false,"wideSize":"1080px"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0px"><!-- wp:heading {"textAlign":"center","fontSize":"max-60"} -->
+<h2 class="has-text-align-center has-max-60-font-size" id="services"><?php echo esc_html__( 'Services', 'avant-garde' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center","className":"is-style-no-margin"} -->
 <p class="has-text-align-center is-style-no-margin"><?php echo esc_html__( 'We build the ultimate experience for you.', 'avant-garde' ); ?></p>
 <!-- /wp:paragraph -->
-<!-- wp:spacer {"height":"10px"} -->
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 <!-- wp:columns {"className":"has-smaller-left-margin"} -->
 <div class="wp-block-columns has-smaller-left-margin"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"border":{"width":"2px","style":"solid"}},"borderColor":"primary","className":"has-primary-border"} -->
