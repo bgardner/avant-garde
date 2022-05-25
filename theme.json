@@ -260,7 +260,7 @@
 			"core/post-comments": {
 				"spacing": {
 					"padding": {
-						"top": "60px"
+						"top": "30px"
 					}
 				}
 			},
