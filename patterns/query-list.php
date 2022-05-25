@@ -1,15 +1,13 @@
 <?php
 /**
- * Avant-Garde: Query list with three columns
- *
- * @package Avant-Garde
+ * Title: Query list with three columns.
+ * Slug: avant-garde/query-list
+ * Categories: avant-garde-query
+ * Viewport Width: 1280
  */
 
-return array(
-	'title'         => __( 'List of posts in three columns.', 'avant-garde' ),
-	'categories'    => array( 'avant-garde-query' ),
-	'viewportWidth' => 1280,
-	'content'       => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
+?>
+<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull"><!-- wp:term-description {"align":"wide","style":{"typography":{"lineHeight":"1.25"}}} /-->
 <!-- wp:query {"queryId":1,"query":{"perPage":"6","pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"align":"wide"} -->
 <div class="wp-block-query alignwide"><!-- wp:post-template -->
@@ -37,5 +35,4 @@ return array(
 <!-- wp:query-pagination-next /-->
 <!-- /wp:query-pagination --></div>
 <!-- /wp:query --></div>
-<!-- /wp:group -->',
-);
+<!-- /wp:group -->

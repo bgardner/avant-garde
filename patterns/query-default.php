@@ -1,15 +1,13 @@
 <?php
 /**
- * Avant-Garde: Query list with one column
- *
- * @package Avant-Garde
+ * Title: Query list with one column.
+ * Slug: avant-garde/query-default
+ * Categories: avant-garde-query
+ * Viewport Width: 1280
  */
 
-return array(
-	'title'         => __( 'List of posts in one column.', 'avant-garde' ),
-	'categories'    => array( 'avant-garde-query' ),
-	'viewportWidth' => 1280,
-	'content'       => '<!-- wp:query {"queryId":0,"query":{"perPage":"5","pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"inherit":true}} -->
+?>
+<!-- wp:query {"queryId":0,"query":{"perPage":"5","pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"inherit":true}} -->
 <div class="wp-block-query"><!-- wp:post-template -->
 <!-- wp:post-title {"isLink":true} /-->
 <!-- wp:post-content /-->
@@ -33,5 +31,4 @@ return array(
 <!-- wp:query-pagination-previous /-->
 <!-- wp:query-pagination-next /-->
 <!-- /wp:query-pagination --></div>
-<!-- /wp:query -->',
-);
+<!-- /wp:query -->

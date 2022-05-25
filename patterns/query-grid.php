@@ -1,15 +1,13 @@
 <?php
 /**
- * Avant-Garde: Query grid with three columns
- *
- * @package Avant-Garde
+ * Title: Query grid with three columns.
+ * Slug: avant-garde/query-grid
+ * Categories: avant-garde-query
+ * Viewport Width: 1280
  */
 
-return array(
-	'title'         => __( 'Grid of posts in three columns.', 'avant-garde' ),
-	'categories'    => array( 'avant-garde-query' ),
-	'viewportWidth' => 1280,
-	'content'       => '<!-- wp:group {"align":"wide","layout":{"inherit":true}} -->
+?>
+<!-- wp:group {"align":"wide","layout":{"inherit":true}} -->
 <div class="wp-block-group alignwide"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -31,5 +29,4 @@ return array(
 <!-- wp:spacer {"height":100} -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
-<!-- /wp:group -->',
-);
+<!-- /wp:group -->

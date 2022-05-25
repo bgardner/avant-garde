@@ -1,20 +1,18 @@
 <?php
 /**
- * Avent-Garde: Portfolio section with images
- *
- * @package Avant-Garde
+ * Title: Portfolio section with images.
+ * Slug: avant-garde/general-portfolio
+ * Categories: avant-garde-general
+ * Viewport Width: 1280
  */
 
-return array(
-	'title'         => __( 'Portfolio section with images.', 'avant-garde' ),
-	'categories'    => array( 'avant-garde-general' ),
-	'viewportWidth' => 1200,
-	'content'       => '<!-- wp:group {"align":"wide"} -->
+?>
+<!-- wp:group {"align":"wide"} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"10px"}}},"fontSize":"max-60"} -->
-<h2 class="has-text-align-center has-max-60-font-size" id="portfolio" style="margin-bottom:10px">' . esc_html__( 'Portfolio', 'avant-garde' ) . '</h2>
+<h2 class="has-text-align-center has-max-60-font-size" id="portfolio" style="margin-bottom:10px"><?php echo esc_html__( 'Portfolio', 'avant-garde' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center","className":"is-style-no-margin"} -->
-<p class="has-text-align-center is-style-no-margin">' . esc_html__( 'We simplify life and love white space.', 'avant-garde' ) . '</p>
+<p class="has-text-align-center is-style-no-margin"><?php echo esc_html__( 'We simplify life and love white space.', 'avant-garde' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:spacer {"height":"10px"} -->
 <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -56,5 +54,4 @@ return array(
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group -->',
-);
+<!-- /wp:group -->
