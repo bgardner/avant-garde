@@ -11,7 +11,7 @@ Avant-Garde is about pushing boundaries and experimenting with new ideas. It’s
 ## Requirements
 
 - Gutenberg plugin (latest)
-- WordPress 5.9+
+- WordPress 6.0+
 - PHP 5.6+
 - License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
 
