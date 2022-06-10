@@ -12,6 +12,10 @@ An experimental block theme for those who love simplicity. Avant-garde is all ab
 
 == Changelog ==
 
+= 1.1.1 =
+
+Use comments query block, remove index.php, minor tweaks.
+
 = 1.1 =
 
 Use new pattern registration, small tweaks for WordPress 6.0.
