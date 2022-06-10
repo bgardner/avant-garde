@@ -310,7 +310,7 @@ kbd {
 	border: 2px solid var(--wp--preset--color--primary);
 }
 
-.wp-block-post-comments-form .form-submit {
+.wp-block-post-comments .form-submit {
 	margin-bottom: 0;
 }
 
