@@ -78,9 +78,19 @@
 			"dropCap": false,
 			"fontFamilies": [
 				{
-					"fontFamily": "\"Outfit\", sans-serif",
+					"fontFamily": "Outfit, sans-serif",
 					"name": "Outfit",
-					"slug": "primary"
+					"slug": "primary",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Outfit",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [ "file:./assets/fonts/Outfit-Variable.ttf.woff2" ]
+						}
+					]
 				},
 				{
 					"fontFamily": "monospace",
@@ -154,31 +164,6 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/button": {
-				"border": {
-					"color": "var(--wp--preset--color--primary)",
-					"radius": "0",
-					"style": "solid",
-					"width": "2px"
-				},
-				"color": {
-					"background": "var(--wp--preset--color--primary)",
-					"text": "var(--wp--preset--color--secondary)"
-				},
-				"spacing": {
-					"padding": {
-						"top": "12px",
-						"right": "25px",
-						"bottom": "12px",
-						"left": "25px"
-					}
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"fontWeight": "var(--wp--custom--font-weight--medium)",
-					"textTransform": "uppercase"
-				}
-			},
 			"core/code": {
 				"border": {
 					"color": "var(--wp--preset--color--primary)",
@@ -404,6 +389,31 @@
 			"text": "var(--wp--preset--color--primary)"
 		},
 		"elements": {
+			"button": {
+				"border": {
+					"color": "var(--wp--preset--color--primary)",
+					"radius": "0",
+					"style": "solid",
+					"width": "2px"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--secondary)"
+				},
+				"spacing": {
+					"padding": {
+						"top": "12px",
+						"right": "25px",
+						"bottom": "12px",
+						"left": "25px"
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--x-small)",
+					"fontWeight": "var(--wp--custom--font-weight--medium)",
+					"textTransform": "uppercase"
+				}
+			},
 			"h1": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-large)"

@@ -33,7 +33,6 @@ if ( ! function_exists( 'avant_garde_setup' ) ) {
 		add_editor_style(
 			array(
 				'./style.css',
-				avant_garde_fonts_url(),
 			)
 		);
 
@@ -52,26 +51,6 @@ add_action( 'wp_enqueue_scripts', 'avant_garde_enqueue_style_sheet' );
 function avant_garde_enqueue_style_sheet() {
 
 	wp_enqueue_style( 'avant-garde', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
-
-}
-
-// Enqueue fonts.
-add_action( 'wp_enqueue_scripts', 'avant_garde_enqueue_fonts' );
-function avant_garde_enqueue_fonts() {
-
-	wp_enqueue_style( 'avant-garde-fonts', avant_garde_fonts_url(), array(), null );
-
-}
-
-// Define fonts.
-function avant_garde_fonts_url() {
-
-	$fonts = array(
-		'family=Outfit:wght@100;200;300;400;500;600;700;800;900',
-	);
-
-	// Make a single request for all Google Fonts.
-	return esc_url_raw( 'https://fonts.googleapis.com/css2?' . implode( '&', array_unique( $fonts ) ) . '&display=swap' );
 
 }
 
