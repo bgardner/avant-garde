@@ -12,6 +12,10 @@ An experimental block theme for those who love simplicity. Avant-garde is all ab
 
 == Changelog ==
 
+= 1.2 =
+
+Move to locally hosted webfonts.
+
 = 1.1.1 =
 
 Use comments query block, remove index.php, minor tweaks.
