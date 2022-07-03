@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: 404 error content.
- * Slug: avant-garde/header-default
+ * Slug: avant-garde/hidden-404
  * Inserter: false
  * Viewport Width: 1280
  */
