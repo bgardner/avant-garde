@@ -18,35 +18,35 @@
 <div class="wp-block-group alignwide"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":4553,"sizeSlug":"full","linkDestination":"none","className":"is-style-canvas is-style-border is-style-frame"} -->
-<figure class="wp-block-image size-full is-style-canvas is-style-border is-style-frame"><img src="https://bg.design/avant-garde/wp-content/uploads/sites/2/2022/02/portfolio-1.jpg" alt="Avant-Garde Portfolio" class="wp-image-4553"/></figure>
+<figure class="wp-block-image size-full is-style-canvas is-style-border is-style-frame"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/portfolio.jpg'; ?>" alt="Avant-Garde Portfolio" class="wp-image-4553"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"id":4556,"sizeSlug":"full","linkDestination":"none","className":"is-style-canvas is-style-border is-style-frame"} -->
-<figure class="wp-block-image size-full is-style-canvas is-style-border is-style-frame"><img src="https://bg.design/avant-garde/wp-content/uploads/sites/2/2022/02/portfolio-4.jpg" alt="Avant-Garde Portfolio" class="wp-image-4556"/></figure>
+<figure class="wp-block-image size-full is-style-canvas is-style-border is-style-frame"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/portfolio.jpg'; ?>" alt="Avant-Garde Portfolio" class="wp-image-4556"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"id":4560,"sizeSlug":"full","linkDestination":"none","className":"is-style-frame"} -->
-<figure class="wp-block-image size-full is-style-frame"><img src="https://bg.design/avant-garde/wp-content/uploads/sites/2/2022/02/portfolio-7.jpg" alt="Avant-Garde Portfolio" class="wp-image-4560"/></figure>
+<figure class="wp-block-image size-full is-style-frame"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/portfolio.jpg'; ?>" alt="Avant-Garde Portfolio" class="wp-image-4560"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":4554,"sizeSlug":"full","linkDestination":"none","className":"is-style-canvas is-style-border is-style-frame"} -->
-<figure class="wp-block-image size-full is-style-canvas is-style-border is-style-frame"><img src="https://bg.design/avant-garde/wp-content/uploads/sites/2/2022/02/portfolio-2.jpg" alt="Avant-Garde Portfolio" class="wp-image-4554"/></figure>
+<figure class="wp-block-image size-full is-style-canvas is-style-border is-style-frame"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/portfolio.jpg'; ?>" alt="Avant-Garde Portfolio" class="wp-image-4554"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"id":4558,"sizeSlug":"full","linkDestination":"none","className":"is-style-canvas is-style-border is-style-frame"} -->
-<figure class="wp-block-image size-full is-style-canvas is-style-border is-style-frame"><img src="https://bg.design/avant-garde/wp-content/uploads/sites/2/2022/02/portfolio-5.jpg" alt="Avant-Garde Portfolio" class="wp-image-4558"/></figure>
+<figure class="wp-block-image size-full is-style-canvas is-style-border is-style-frame"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/portfolio.jpg'; ?>" alt="Avant-Garde Portfolio" class="wp-image-4558"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"id":4561,"sizeSlug":"full","linkDestination":"none","className":"is-style-frame"} -->
-<figure class="wp-block-image size-full is-style-frame"><img src="https://bg.design/avant-garde/wp-content/uploads/sites/2/2022/02/portfolio-8.jpg" alt="Avant-Garde Portfolio" class="wp-image-4561"/></figure>
+<figure class="wp-block-image size-full is-style-frame"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/portfolio.jpg'; ?>" alt="Avant-Garde Portfolio" class="wp-image-4561"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":4555,"sizeSlug":"full","linkDestination":"none","className":"is-style-canvas is-style-border is-style-frame"} -->
-<figure class="wp-block-image size-full is-style-canvas is-style-border is-style-frame"><img src="https://bg.design/avant-garde/wp-content/uploads/sites/2/2022/02/portfolio-3.jpg" alt="Avant-Garde Portfolio" class="wp-image-4555"/></figure>
+<figure class="wp-block-image size-full is-style-canvas is-style-border is-style-frame"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/portfolio.jpg'; ?>" alt="Avant-Garde Portfolio" class="wp-image-4555"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"id":4559,"sizeSlug":"full","linkDestination":"none","className":"is-style-canvas is-style-border is-style-frame"} -->
-<figure class="wp-block-image size-full is-style-canvas is-style-border is-style-frame"><img src="https://bg.design/avant-garde/wp-content/uploads/sites/2/2022/02/portfolio-6.jpg" alt="Avant-Garde Portfolio" class="wp-image-4559"/></figure>
+<figure class="wp-block-image size-full is-style-canvas is-style-border is-style-frame"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/portfolio.jpg'; ?>" alt="Avant-Garde Portfolio" class="wp-image-4559"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"id":4563,"sizeSlug":"full","linkDestination":"none","className":"is-style-frame"} -->
-<figure class="wp-block-image size-full is-style-frame"><img src="https://bg.design/avant-garde/wp-content/uploads/sites/2/2022/02/portfolio-9.jpg" alt="Avant-Garde Portfolio" class="wp-image-4563"/></figure>
+<figure class="wp-block-image size-full is-style-frame"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/portfolio.jpg'; ?>" alt="Avant-Garde Portfolio" class="wp-image-4563"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
